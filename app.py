@@ -16,8 +16,8 @@ app = Flask(__name__)
 # Once your frontend is successfully communicating with your backend,
 # it's recommended to make this more secure by specifying your exact GitHub Pages URL:
 # Example (uncomment and replace the line below 'CORS(app)' with this for production):
-# CORS(app, origins=["https://KRISHNACHAITANYAVEJENDLA.github.io/disease-prediction"])
-CORS(app) # <-- This line is active and allows all origins for testing.
+CORS(app, origins=["https://KRISHNACHAITANYAVEJENDLA.github.io/disease-prediction"])
+#CORS(app) # <-- This line is active and allows all origins for testing.
 
 # --- Load and Prepare Data ---
 try:
